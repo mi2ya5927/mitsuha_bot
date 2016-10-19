@@ -81,7 +81,7 @@ var bot = controller.spawn({
 }).startRTM();
 
 
-controller.hears(['Hello', 'hi', '田島さん'], 'direct_message,direct_mention,mention', function(bot, message) {
+controller.hears(['みつは', '三葉', "Swift"], 'direct_message,direct_mention,mention', function(bot, message) {
 
     // bot.api.reactions.add({
     //     timestamp: message.ts,
@@ -102,7 +102,7 @@ controller.hears(['Hello', 'hi', '田島さん'], 'direct_message,direct_mention
             if (0<=rand<0.05) {
             bot.reply(message, '入れ替わってる〜！？！？');
         }else if(0.05<=rand<0.1){
-            bot.reply(message, '瀧くん、覚えて、ない？');
+            bot.reply(message, 'みつやくん、覚えて、ない？');
         }else if(0.1<=rand<0.15){
             bot.reply(message, '朝、目が覚めると、なぜか泣いている。そういうことが、ときどきある');
         }
@@ -123,7 +123,7 @@ controller.hears(['Hello', 'hi', '田島さん'], 'direct_message,direct_mention
         else if(0.7<=rand<0.8){
             bot.reply(message, '私たちは、会えば絶対、すぐにわかる');
         }else if(0.8<=rand<0.9){
-            bot.reply(message, '瀧くん、あの、私... 憶えて、ない？');
+            bot.reply(message, 'みつやくん、あの、私... 憶えて、ない？');
         }else{
             bot.reply(message, '君の名前は...');
         // }
