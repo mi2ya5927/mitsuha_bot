@@ -104,29 +104,28 @@ controller.hears(['Hello', 'hi', '田島さん'], 'direct_message,direct_mention
         }else if(0.05<=rand<0.1){
             bot.reply(message, '瀧くん、覚えて、ない？');
         }else if(0.1<=rand<0.15){
-            bot.reply(message, '君の、名前は,,,?');
+            bot.reply(message, '朝、目が覚めると、なぜか泣いている。そういうことが、ときどきある');
         }
         else if(0.15<=rand<0.2){
-            bot.reply(message, 'あなたは誰？');
+            bot.reply(message, 'ただ、何かが消えてしまったという感覚だけが、目覚めてからも、長く、残る');
         }else if(0.2<=rand<0.3){
             bot.reply(message, '忘れたくないひと、忘れちゃだめなひと');
         }else if(0.3<=rand<0.4){
             bot.reply(message, 'もうこんな街いやや〜　こんな人生いやや〜　来世は東京のイケメン男子にしてください〜');
         }else if(0.4<=rand<0.5){
-            bot.reply(message, 'い');
+            bot.reply(message, 'そういう気持ちに捕り憑かれたのは、たぶん、あの日から');
         }else if(0.5<=rand<0.6){
-            bot.reply(message, 'wwwww');
+            bot.reply(message, '今頃二人は一緒か... あれ... 私... ？');
         }
         else if(0.6<=rand<0.7){
             bot.reply(message, 'あ');
         }
         else if(0.7<=rand<0.8){
-            bot.reply(message, 'nnnnn');
+            bot.reply(message, '私たちは、会えば絶対、すぐにわかる');
         }else if(0.8<=rand<0.9){
-            bot.reply(message, 'lll
-                ');
+            bot.reply(message, '瀧くん、あの、私... 憶えて、ない？');
         }else{
-            bot.reply(message, '北尾さん最近ギャルの方はどうなん？');
+            bot.reply(message, '君の名前は...');
         // }
     };
 });
@@ -233,7 +232,7 @@ controller.hears(['what is my name', 'who am i'], 'direct_message,direct_mention
     });
 });
 
-// ここから下は田島さん名言テスト
+// ここから下は三葉名言テスト
 controller.hears('', ['direct_mention'], function(bot, message) {
     bot.reply(message, 'hahaha');
 })
