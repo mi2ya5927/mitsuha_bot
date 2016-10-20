@@ -130,20 +130,20 @@ controller.hears(['みつは', '三葉', "Swift"], 'direct_message,direct_mentio
     };
 });
 
-controller.hears('', ['direct_mention'], function(bot, message) {
-    controller.storage.users.get(message.user, function(err, user) {
-    bot.reply(message, user.name + 'なに〜？');
-};
-});
+// controller.hears('', ['direct_mention'], function(bot, message) {
+//     controller.storage.users.get(message.user, function(err, user) {
+//     bot.reply(message, user.name + 'なに〜？');
+// };
+// });
 
 
 
 // おはようのreply
-controller.hears(['おはよう','おはよ'],'direct_message,direct_mention,mention',function(bot,message){
-    controller.storage.users.get(message.user, function(err, user) {
-        bot.reply(message, 'おはよう' + user.name);
-    };
-});
+// controller.hears(['おはよう','おはよ'],'direct_message,direct_mention,mention',function(bot,message){
+//     controller.storage.users.get(message.user, function(err, user) {
+//         bot.reply(message, 'おはよう' + user.name);
+//     };
+// });
 
 
 controller.hears(['いでよ',], 'direct_message,direct_mention,mention', function(bot, message) {
