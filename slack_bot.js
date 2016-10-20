@@ -134,7 +134,7 @@ controller.hears(['みつは', '三葉', "Swift"], 'direct_message,direct_mentio
 controller.hears(['おはよう', 'おはよ', "おは"], 'direct_message,direct_mention,mention', function(bot, message) {
 
     controller.storage.users.get(message.user, function(err, user) {
-            bot.reply(message, 'おはよう、みつやくん');
+            bot.reply(message, 'おはよう、みつやくん')
     };
 });
 
