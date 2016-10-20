@@ -250,7 +250,7 @@ controller.hears(['what is my name', 'who am i'], 'direct_message,direct_mention
 
 // ここから下は三葉名言テスト
 controller.hears('', ['direct_mention'], function(bot, message) {
-    bot.reply(message, 'hahaha');
+    bot.reply(message, '好きだよ');
 })
 
 // ここまで
